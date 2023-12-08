@@ -2,9 +2,10 @@
 
     //Egenskaper: Navn, Alder, Studieprogram, StudentID.
     //Metode: SkrivUtInfo() som skriver ut informasjon om studenten.
+
 public class Student
 {
-    List<Student> Students { get; set; }
+    public List<Student> Students { get; set; }
     public string StudentName { get; set; }
     public int StudentAge { get; set; }
     public int StudentId { get; set;}
