@@ -1,10 +1,12 @@
-﻿namespace GA_StudentAdmin.ConsoleApp
+﻿using GA_StudentAdmin.ConsoleApp;
+
+internal class Program
 {
-    internal class Program
+
+    public static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
+        Subject subjectInstance = new Subject();
+
+        subjectInstance.ShowSubjectInfo();
     }
 }
